@@ -7,16 +7,15 @@ class ContactListItem extends React.Component {
   };
 
   onBtnClick = () => {
-    console.log("clicked");
     if (this.state.btnChange === false) {
       this.setState({
         btnChange: true,
-        btnText: "Clicked"
+        btnText: "Clicked!"
       });
     } else {
       this.setState({
         btnChange: false,
-        btnText: "Contact Now"
+        btnText: "Contact Now!"
       });
     }
   };
